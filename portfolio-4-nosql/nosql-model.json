@@ -1,0 +1,47 @@
+{
+  "_id": "PAT_9845210",
+  "personal_info": {
+    "first_name": "Olawuyi",
+    "last_name": "Emmanuel",
+    "date_of_birth": "1998-05-14",
+    "gender": "Male",
+    "phone_number": "+2348030000000",
+    "email": "olawuyi@example.com",
+    "address": "Karu, Abuja, Nigeria"
+  },
+  "emergency_contact": {
+    "name": "Eunice Wong",
+    "relationship": "Colleague",
+    "phone_number": "+2348031111111"
+  },
+  "medical_history": [
+    {
+      "visit_id": "VIS_2026_0615_01",
+      "visit_date": "2026-06-15T10:30:00Z",
+      "attending_doctor": {
+        "doctor_id": "DOC_102",
+        "name": "Dr. Adebisi Oluwatoni",
+        "specialization": "Cardiology"
+      },
+      "symptoms": ["Persistent chest pain", "Mild dizziness"],
+      "diagnosis": "Acute hypertension variant",
+      "doctor_notes": "Advised lifestyle adjustments and prescribed anti-hypertensive medication.",
+      "prescriptions": [
+        {
+          "medication_name": "Amlodipine",
+          "dosage": "5mg",
+          "frequency": "Once daily",
+          "duration": "30 days"
+        }
+      ],
+      "laboratory_tests": [
+        {
+          "test_name": "Complete Blood Count (CBC)",
+          "test_status": "Completed",
+          "test_date": "2026-06-15T11:15:00Z",
+          "results": "WBC: 6.5 x10^3/µL, RBC: 4.8 x10^6/µL (Normal ranges)"
+        }
+      ]
+    }
+  ]
+}
