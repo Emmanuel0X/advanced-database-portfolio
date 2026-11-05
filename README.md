@@ -3,8 +3,8 @@ Ardeliah Clinical Systems
 
 # Advanced Database Systems Portfolio (MIT 8103)
 * **Student Name:** Emmanuel Olawuyi
-* **Institution:** MIVA Open University[cite: 1]
-* **Course:** MIT 8103 Advanced Database Systems (2026/2027 Academic Session)[cite: 1]
+* **Institution:** MIVA Open University
+* **Course:** MIT 8103 Advanced Database Systems (2026/2027 Academic Session)
 
 ## **Selected Organisation / Case Study**
 * **Name:** Ardeliah Clinical System
