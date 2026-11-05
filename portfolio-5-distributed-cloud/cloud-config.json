@@ -1,0 +1,13 @@
+{
+  "system_name": "Ardeliah Clinical System",
+  "cloud_provider": "AWS / Multi-Region Cloud",
+  "database_engine": "Amazon Aurora MySQL Distributed Cluster",
+  "deployment_specifications": {
+    "primary_region": "af-south-1 (Cape Town / West Africa Edge)",
+    "replica_regions": ["eu-west-1"],
+    "multi_az_enabled": true,
+    "automatic_failover": true,
+    "backup_retention_period_days": 30,
+    "encryption_at_rest": "AES-256"
+  }
+}
