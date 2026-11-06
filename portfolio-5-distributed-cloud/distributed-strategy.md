@@ -11,6 +11,6 @@ To manage millions of historical patient medical records efficiently, the databa
 - Shard 2: Patients ID 500,001 – 1,000,000 (Lagos Branch)
 
 ## 3. CAP Theorem Trade-off
-In a distributed hospital database, i evaluate the **CAP Theorem** (Consistency, Availability, Partition Tolerance):
+In a distributed hospital database, I evaluate the **CAP Theorem** (Consistency, Availability, Partition Tolerance):
 - **Choice:** **AP / Eventual Consistency** for analytical logging and non-urgent appointment syncs across regional branches.
 - **Strict Consistency (CP):** Enforced strictly for financial billing, payment transactions, and active emergency medication records to prevent dangerous medical or financial discrepancies.
