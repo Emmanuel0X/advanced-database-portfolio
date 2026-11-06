@@ -2,4 +2,4 @@
 
 - **The Problem:** Without indexes, the computer had to look at every single paper in the filing cabinet (Full Table Scan).
 - **The Fix:** I added indexes on appointment dates and doctor specializations.
-- **The Result:** The computer now skips right to the correct page instantly, saving lots of time!
+- **The Result:** The computer now skips right to the correct page instantly, saving lots of time
