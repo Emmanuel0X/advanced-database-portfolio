@@ -1,9 +1,7 @@
 USE ardeliah_clinical_db;
 
--- ==========================================================
 -- SCENARIO A: Successful Transaction (COMMIT)
 -- Booking an appointment and recording initial consultation setup.
--- ==========================================================
 
 START TRANSACTION;
 
@@ -21,11 +19,8 @@ VALUES (@latest_appointment_id, 1, 2, 'Persistent chest pain and dizziness', 'Pe
 -- If everything succeeds, commit the changes permanently
 COMMIT;
 
-
--- ==========================================================
 -- SCENARIO B: Failed Transaction with Error Handling (ROLLBACK)
 -- Simulating a failure (e.g., foreign key violation or invalid data)
--- ==========================================================
 
 START TRANSACTION;
 
