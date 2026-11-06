@@ -5,5 +5,7 @@ For Ardeliah Clinical System, a **Document-Oriented NoSQL Model (MongoDB)** was 
 
 ## 2. Key Benefits over Relational Model
 -- **Atomic Retrieval:** Fetching a patient's entire medical background (visits, prescriptions, lab results) requires a single query (`db.patients.findOne({ _id: "PAT_9845210" })`), eliminating complex 5-way SQL `JOIN` overhead.
+
 -- **Schema Flexibility:** Medical attributes change frequently (e.g., a new test category or wearable device integration). Document stores accommodate schema evolution without requiring disruptive table migrations (`ALTER TABLE`).
+
 -- **Horizontal Scalability:** As hospital records scale into millions of historical patient logs, MongoDB's sharding architecture distributes document collections across clusters seamlessly.
